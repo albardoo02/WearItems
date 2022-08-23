@@ -1,0 +1,16 @@
+name: WearItems
+version: '${version}'
+main: com.github.albardoo02.WearItems
+authors: [ albardoo02 ]
+description: アイテムを防具欄につける
+
+commands:
+  wear:
+    description: 防具欄にアイテムを置くコマンド
+    usage: /wear <helmet|chestplate|leggings|boots>
+    permission: WearItems.Command.Wear
+
+permissions:
+  WearItems.Command.Wear:
+    description: コマンドの権限
+    default: op
