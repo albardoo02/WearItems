@@ -8,4 +8,4 @@
 `WearItems.Command.Wear`: コマンド権限
 
 ## ライセンス/License
-[GNU General Public License v3.0](LICENSE)
+[MIT LICENSE](LICENSE)
